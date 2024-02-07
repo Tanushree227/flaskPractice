@@ -18,6 +18,5 @@ def upload_file():
         return render_template('image_render.html', img=img)
     return render_template('image_render.html')
  
- 
 if __name__ == '__main__':
     app.run(debug=True, port=5001)
